@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  background-color: #7e9a95;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.Quiz {
+  width: 100%;
+  width: 500px;
+  padding: 20px 10px 40px;
+  border-radius: 20px;
+  /* text-align: center; */
+  background-color: hsl(0, 69%, 95%);
+}
+h1 {
+  padding: 20px 15px 10px;
+  margin: 10px;
+}
+hr {
+  width: 90%;
+  margin: auto;
+  border: 0;
+  border: 1px solid rgb(97, 101, 101);
+}
+.que_box {
+  margin: 30px;
+}
+.que_box span {
+  font-size: 22px;
+  font-weight: 700;
+}
+.option {
+  border: 2px solid gray;
+  margin-top: 18px;
+  padding: 7px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.option:hover {
+  background-color: rgb(18, 56, 87);
+  transition: 0.5s ease-in-out;
+  color: white;
+}
+.btn {
+  width: 100%;
+  /* background-color: #766d6d; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn button {
+  padding: 10px 28px;
+  background-color: rgb(23, 51, 60);
+  font-size: 18px;
+  color: white;
+  border: none;
+  outline: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.playbutton {
+  padding: 10px 28px;
+  background-color: rgb(23, 51, 60);
+  font-size: 18px;
+  color: white;
+  border: none;
+  outline: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+}
+@media (max-width: 520px) {
+  .Quiz {
+    width: 100%;
+    margin: 20px;
+  }
+}
